@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+
+/* color */
+$violet: hsl(257, 40%, 49%);
+$magenta: hsl(300, 69%, 71%);
+
+/* headings */
+$headings: 'Poppins';
+$body: 'Open Sans';
+
+
+* {
+    margin: 0;
+    text-decoration: none;
+}
+
+body {
+    background-image: url('../images/bg-mobile.svg');
+    background-color: $violet;
+    background-size: cover;
+}
+
+.logo {
+    height: 40px;
+    width: auto;
+    margin: 2em 4em;
+    cursor: pointer;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+    .mockup {
+        width: 410px;
+        height: auto;
+        
+    }
+
+    #details {
+        text-align: center;
+        color: white;
+        margin: 2.5em 2em 0;
+
+
+        h1 {
+            font-family: 'Poppins';
+            font-weight: 600;
+        }
+
+        p {
+            margin: 1em 0 2em;
+            font-family: 'Open Sans';
+            
+        }
+
+        a {
+            font-family: 'Open Sans';
+            font-size: 14px;
+            background-color: white;
+            border-radius: 20px;
+            padding: .7em 6em;
+            color: $violet;
+            box-shadow: 0 10px 30px rgba(0,0,0,.2);
+            
+            &:hover {
+                background-color: $magenta;
+                color: white;
+            }
+            
+            
+        }
+    }
+}
+
+.social {
+    margin: 4em 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    img { 
+        margin: 0 .5em;
+    height: 40px;
+    width: auto;
+
+    
+}
+    
+
+}
+
+.attribution { 
+    margin-top: 2em;
+    font-size: 11px; text-align: center; 
+
+    a {
+        color: white;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+
+    body {
+        background-image: url(../images/bg-desktop.svg);
+        background-size: contain;
+        
+    }
+
+    .hero {
+        display: flex;
+        flex-direction: row;
+
+
+        .mockup {
+            margin-left: 2.4em;
+            margin-top: 1em;
+            width: 640px;
+
+        }
+
+        
+
+        #details {
+            text-align: left;
+            margin-top: -7em;
+            
+
+            h1 {
+                font-size: 2rem;
+                
+
+                span {
+                    display: block;
+                }
+            }
+
+            p {
+                margin-right: 2em;
+            }
+
+            a {
+                
+                padding: 1em 4em;
+                border-radius: 30px;
+                box-shadow: 5px 10px 8px rgba(0,0,0,.2);
+            }
+        }
+    }
+    
+
+    .social {
+        margin-right: 4em;
+        justify-content: flex-end;
+        position: relative;
+        top: -5em;
+    }
+
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    

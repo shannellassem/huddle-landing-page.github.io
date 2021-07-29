@@ -32,7 +32,7 @@ Users should be able to:
 ### Screenshot
 
 ![](./solution/desktop.jpg)
-![](./solution/mobile-1.jpg)
+![](./solution/mobile 1.jpg)
 ![](./solution/mobile-2.jpg)
 
 
